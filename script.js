@@ -1,5 +1,7 @@
 $(document).ready(function(){
     console.log("dafuck")
+    $(".currentDate").text(moment().format("dddd, MMMM Do"));
+
 
 
 
