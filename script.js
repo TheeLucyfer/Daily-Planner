@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    console.log("dafuck")
     $(".currentDate").text(moment().format("dddd, MMMM Do"));
     
     for (let i = 9; i < 18; i++) {
