@@ -4,3 +4,24 @@
 .bottom {
     border-bottom: solid;
 }
+.fas {
+    background-color: #00ccff;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.current {
+    background-color: red;
+    color: white;
+}
+.future {
+    background-color:green;
+    color: white;
+}
+.future::placeholder {
+    color:white;
+}
+.current::placeholder {
+    color:white;
+}
